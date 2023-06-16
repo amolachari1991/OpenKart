@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 59.408 s <<< FAILURE! - in TestSuite
-testCases.TC_003_LoginDataDrivenTest.test_LoginDDT[pavanoltraining@gmail.com, test@123, Valid](1)  Time elapsed: 11.184 s  <<< FAILURE!
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 60.905 s <<< FAILURE! - in TestSuite
+testCases.TC_003_LoginDataDrivenTest.test_LoginDDT[pavanoltraining@gmail.com, test@123, Valid](1)  Time elapsed: 11.206 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
@@ -42,7 +42,7 @@ java.lang.AssertionError: expected [true] but found [false]
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-testCases.TC_003_LoginDataDrivenTest.test_LoginDDT[lakshmi@yahoo.com, Laxmi, Valid](2)  Time elapsed: 11.034 s  <<< FAILURE!
+testCases.TC_003_LoginDataDrivenTest.test_LoginDDT[lakshmi@yahoo.com, Laxmi, Valid](2)  Time elapsed: 10.823 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1413)
